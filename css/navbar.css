@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/*navbar*/
+
+nav{
+	width: 100%;
+	font-family: Montserrat;
+	background-color: #fff;
+	color: #fff;
+	padding-bottom: 10px;
+	position: fixed;
+	z-index: 500;
+	color: #9B9B9B;
+}
+
+#logo-box{
+	float: left;
+	font-family: 'Pacifico', cursive;
+}
+
+#logo-box .logo{
+	color: black;
+	font-size: 40px;
+}
+
+#logo-box .logo{
+	transition: color .3s;
+}
+
+#logo-box .logo:hover{
+	color: #4E97FD;
+}
+
+#nav-links{
+	float: right;
+}
+
+#nav-links .nav-item{
+	float: left;
+	margin: 15px;
+}
+
+#nav-links .nav-link{
+	color: #9B9B9B;
+	font-size: 16px;
+	font-weight: 700;
+	display	: block;
+	padding: 6px;
+	transition: color .3s;
+}
+
+#nav-links .nav-link:hover{
+	color: #4E97FD;
+}
+
+#nav-links .nav-icon{
+	display: none;
+}
+
+/*arama*/
+
+#search-box {
+	padding-top: 10px;
+	float: left;
+    max-width: 300px;
+	position: relative;
+}
+ 
+#search-box .fa-search {
+    position: absolute;
+    top: 24px;
+    left: 12px;
+    font-size: 20px;
+    color: #9b9b9b;
+}
+ 
+#search {
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid #9B9B9B;
+    border-radius: 4px;
+    font-size:18px;
+    padding: 12px 20px 10px 40px;
+    -moz-transition: width 0.4s ease-in-out;
+    -o-transition: width 0.4s ease-in-out;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#arama-icon:hover {
+    color:cornflowerblue;
+}
+ 
+#search:focus {
+    width: 150px;
+}
+
+#shp-icon {
+	color: #9B9B9B;
+}
+
+#shp-icon:hover {
+	color: cornflowerblue;
+}
+
+#shp{
+	padding-left: 30px;
+	padding-top: 20px;
+	max-width: 300px;
+	position: relative;
+	font-size: 25px;
+	display: flex;
+	flex-direction: row;
+}
+
+#shp h6 {
+	padding-top: 3px;
+	font-size: 15px;
+}
+
+@media (max-width: 992px){
+	#logo-box{
+		float: none;
+		text-align: left;
+	}
+
+	#nav-links{
+		float: none;
+	}
+
+	#nav-links.responsive li:not(:first-child){
+		display: none;
+	}
+
+	#nav-links .nav-link{
+		font-size: 2rem;
+		padding-left: 0;
+	}
+
+	#nav-links .nav-item{
+		float: none;
+		text-align: left; 
+	}
+
+	#nav-links .nav-icon{
+		display: block;
+		position: absolute;
+		top: 10px;
+		right: 5px;
+		font-size: 3rem;
+	}
+}
+
+.product{
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.product-category{
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}

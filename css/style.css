@@ -1,0 +1,113 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 700;
+	font-family: Montserrat;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+    background: #6394f8;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+}
+
+slider {
+	display: block;
+}
+
+.text-uppercase{
+	text-transform: uppercase;
+}
+
+.sc-cart {
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	color: white;
+	position: fixed;
+	z-index: 1000;
+}
+
+.container{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.col{
+	float: left;
+	padding: 60px;
+}
+
+.btn{
+	margin-top: 24px;
+	font-weight: 400;
+	display: inline-block;
+	border: 2px solid transparent;
+	border-radius: 2px;
+	cursor: pointer;
+	transition: all .5s;
+}
+
+.btn-social{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.btn-download{
+	color: #fff;
+	border-color: #fff;
+	background-color: transparent;
+}
+
+.btn-download:hover{
+	color: #212529;
+	background-color: #fff;
+}
+
+/*Footer*/
+
+footer{
+	padding-left: 180px;
+	padding-bottom: 300px;
+	background-color: yellow;
+	color: #fff;
+	text-align: center;
+}
+
+footer h4{
+	font-size: 17px;
+
+}
+
+footer p{
+	font-size: 20px;
+	margin-top: 6px;
+}
+
+footer li{
+	display: inline-block;
+	margin-right: 6px;
+}
